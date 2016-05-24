@@ -4,10 +4,9 @@
 	font-family: sans-serif;
 }
 footer{
-	background: #34394F;
-	color: #A5AACF;
-
-	box-sizing: border-box;
+	background:rgb(52,57,79);
+	color: rgb(165,170,207);
+	height: 300px;
 }
 
 footer img{
@@ -16,7 +15,6 @@ footer img{
 
 footer li{
 	text-align: center;
-	border: 1px solid white;
 	display: inline-block;
 	width: 25%;
 }
