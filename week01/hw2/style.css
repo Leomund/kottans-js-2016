@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+footer{
+	background: #34394F;
+	color: #A5AACF;
+
+	box-sizing: border-box;
+}
+
+footer img{
+	display: inline-block;
+}
+
+footer li{
+	text-align: center;
+	border: 1px solid white;
+	display: inline-block;
+	width: 25%;
+}
+
+footer h2{
+	font-size: 1em;
+	font-weight: 400;
+	text-transform: uppercase;
+}
