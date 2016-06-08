@@ -37,6 +37,9 @@ function deepAssign(target, source, isExpand) {
 	return to
 }
 
-let a = {a:1,b:2};
-let b = {c:2,d:{x:3}};
-console.log(deepAssign(a,b))
+let a = {a: 1, b: 2};
+let b = {c: 2, d: {x: 3}};
+let c = deepAssign(a, b);
+console.log(c);
+delete b;
+console.log(c);
